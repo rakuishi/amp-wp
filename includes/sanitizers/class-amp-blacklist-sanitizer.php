@@ -119,6 +119,7 @@ class AMP_Blacklist_Sanitizer extends AMP_Base_Sanitizer {
 
 	private function get_blacklisted_attributes() {
 		return array(
+			'rev',
 			'style',
 		);
 	}
